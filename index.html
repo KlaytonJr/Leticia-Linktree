@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letícia Marques | Linktree</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="particles-js"></div>
+  <div class="container">
+    <img id="profile-photo" src="./img/photo-perfil.jpg">
+    <h1>Letícia Marques</h1>
+    <p>Conheça meu canal do YouTube!</p>
+    <div class="info-container">
+      <div class="social-media">
+        <div class="social-coin">
+          <a href="https://www.instagram.com/leticiamarrques/">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+          </a>
+        </div>
+        <div class="social-coin">
+          <a href="https://www.youtube.com/channel/UCgyihTlmVbpWhv_wRwrvbwg">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-youtube"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
+          </a>
+        </div>
+      </div>
+      <div class="content">
+        <div class="video-container">
+          <p>Assista meu último vídeo!</p>
+          <iframe src="https://www.youtube.com/embed/esy4oLgIYSc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+        </div>
+        <div class="btn-container">
+          <button class="btn">
+            <a href="">🎥 Conheça Meu Canal</a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS("particles-js", {
+      particles: {
+        number: {
+          value: 1200,
+          density: { enable: true, value_area: 789.1476416322727 }
+        },
+        color: {
+          value: "#ffffff"
+        },
+        shape: {
+          type: "circle",
+          stroke: { width: 0, color: "#000000" },
+          polygon: { nb_sides: 5 },
+          image: { src: "img/github.svg", width: 100, height: 100 }
+        },
+        opacity: {
+          value: 0.48927153781200905,
+          random: false,
+          anim: { enable: true, speed: 0.2, opacity_min: 0, sync: false }
+        },
+        size: {
+          value: 2,
+          random: true,
+          anim: { enable: true, speed: 2, size_min: 0, sync: false }
+        },
+        line_linked: {
+          enable: false,
+          distance: 150,
+          color: "#ffffff",
+          opacity: 0.4,
+          width: 1
+        },
+        move: {
+          enable: true,
+          speed: 0.2,
+          direction: "none",
+          random: true,
+          straight: false,
+          out_mode: "out",
+          bounce: false,
+          attract: { enable: false, rotateX: 600, rotateY: 1200 }
+        }
+      },
+      interactivity: {
+        detect_on: "canvas",
+        events: {
+          onhover: {
+            enable: true,
+            mode: "bubble"
+          },
+          onclick: { enable: true, mode: "push" },
+          resize: true
+        },
+        modes: {
+          grab: { distance: 400, line_linked: { opacity: 1 } },
+          bubble: {
+            distance: 83.91608391608392,
+            size: 1,
+            duration: 3,
+            opacity: 1,
+            speed: 3
+          },
+          repulse: { distance: 200, duration: 0.4 },
+          push: { particles_nb: 4 },
+          remove: {
+            particles_nb: 2
+          }
+        }
+      },
+      retina_detect: true
+    });
+  </script>
+</body>
+</html>
+
+<!-- https://www.youtube.com/watch?v=esy4oLgIYSc&lc=Ugy8zqP6JEF5IREKCPt4AaABAg.9K8wXNZhjb-9KBLveenyl_ -->
